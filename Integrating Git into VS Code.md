@@ -1,4 +1,4 @@
-Integrating GitHub into Visual Studio Code (VS Code) can be beneficial for technical writers to manage documentation and collaborate with developers seamlessly. Here are the basic steps to integrate GitHub into VS Code:
+Integrating GitHub into Visual Studio Code (VS Code) can be beneficial for technical writers to manage documentation and collaborate with developers seamlessly. Here are the basic steps to integrate GitHub into VS Code: (For detailed instructions, click on each Section Link)
 
 1. **[Install VS Code](#install-vs-code):** If you haven't already installed VS Code, you can download it from the official website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
    
@@ -233,6 +233,7 @@ Working with a GitHub repository in Visual Studio Code (VS Code) involves clonin
    - Click on the "Source Control" icon in the Activity Bar on the side of the window (or use the keyboard shortcut `Ctrl+Shift+G` on Windows/Linux or `Cmd+Shift+G` on macOS) to open the Source Control view.
    - Click on the "Clone Repository" button (icon with a cloud and arrow pointing down) in the top-right corner of the Source Control view.
    - Enter the URL of the GitHub repository you want to clone and specify a local folder on your computer where you want to store the repository.
+   - If this is your first time accessing a repo from Github, you'll be prompted to enter your username and password. Follow the instructions [here](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories) depending on how you've cloned the repository.
    - Click "Clone" to initiate the cloning process. The repository will be downloaded to your local machine.
 
 2. **Open the Cloned Repository in VS Code:**
