@@ -1,18 +1,18 @@
 Integrating GitHub into Visual Studio Code (VS Code) can be beneficial for technical writers to manage documentation and collaborate with developers seamlessly. Here are the basic steps to integrate GitHub into VS Code:
 
-1. **[[#Install VS Code]]:** If you haven't already installed VS Code, you can download it from the official website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+1. **[Install VS Code](#install-vs-code):** If you haven't already installed VS Code, you can download it from the official website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
    
-2. **[[#Install Git]]:** Ensure you have Git installed on your computer. Git is a version control system that allows you to track changes in your documents and collaborate with others on GitHub. You can download Git from: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+2. **[Install Git](#install-git):** Ensure you have Git installed on your computer. Git is a version control system that allows you to track changes in your documents and collaborate with others on GitHub. You can download Git from: [https://git-scm.com/downloads](https://git-scm.com/downloads)
   
-3. **[[#Install GitHub Extension for Visual Studio Code]]:** Open VS Code and navigate to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window (or use the keyboard shortcut `Ctrl+Shift+X` on Windows/Linux or `Cmd+Shift+X` on macOS). Search for "GitHub" in the Extensions Marketplace, and you should find "GitHub Pull Requests and Issues" by GitHub. Click "Install" to install the extension.
+3. **[Install GitHub Extension for Visual Studio Code](#install-github-extension-for-visual-studio-code):** Open VS Code and navigate to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window (or use the keyboard shortcut `Ctrl+Shift+X` on Windows/Linux or `Cmd+Shift+X` on macOS). Search for "GitHub" in the Extensions Marketplace, and you should find "GitHub Pull Requests and Issues" by GitHub. Click "Install" to install the extension.
   
-4. **[[#Authorize VS Code to access GitHub]]:** After installing the GitHub extension, you'll need to authorize VS Code to access your GitHub account. Click on the "Sign in to GitHub" button in the bottom status bar or use the command `"GitHub: Sign in"` from the Command Palette (`Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on macOS).
+4. **[Authorize VS Code to access GitHub](#authorize-vs-code-to-access-github):** After installing the GitHub extension, you'll need to authorize VS Code to access your GitHub account. Click on the "Sign in to GitHub" button in the bottom status bar or use the command `"GitHub: Sign in"` from the Command Palette (`Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on macOS).
   
-5. **[[#Working with a Git Repository in VS Code]]:** To work with a GitHub repository, open the repository in VS Code. You can do this by clicking the "Clone Repository" button in the Source Control view or using the command `"Git: Clone"` from the Command Palette. Enter the URL of the GitHub repository you want to work with and specify a local folder to store the repository.
+5. **[Working with a Git Repository in VS Code](#working-with-a-git-repository-in-vs-code):** To work with a GitHub repository, open the repository in VS Code. You can do this by clicking the "Clone Repository" button in the Source Control view or using the command `"Git: Clone"` from the Command Palette. Enter the URL of the GitHub repository you want to work with and specify a local folder to store the repository.
   
-6. **[[#Create or Edit Markdown Files in VS Code]]:** As a technical writer, you'll likely be working with Markdown files for documentation. Create or edit your Markdown files within the cloned repository in VS Code.
+6. **[Create or Edit Markdown Files in VS Code](#create-or-edit-markdown-files-in-vs-code):** As a technical writer, you'll likely be working with Markdown files for documentation. Create or edit your Markdown files within the cloned repository in VS Code.
 
-7. **[[#Create Pull Requests (Optional)]]:** If you are collaborating with developers or other writers, you might need to create pull requests to propose changes to the main branch of the repository. This allows others to review your changes before they are merged. To create a pull request, use the GitHub extension or the `"GitHub: Create Pull Request"` command from the Command Palette. 
+7. **[Create Pull Requests (Optional)](#create-pull-requests-optional):** If you are collaborating with developers or other writers, you might need to create pull requests to propose changes to the main branch of the repository. This allows others to review your changes before they are merged. To create a pull request, use the GitHub extension or the `"GitHub: Create Pull Request"` command from the Command Palette. 
 
 With these steps, you can integrate GitHub into Visual Studio Code and start managing your technical documentation with version control and collaboration features. It's essential to understand Git basics to make the most of this integration effectively.
 
@@ -52,7 +52,9 @@ To install Git on your computer, follow these steps based on your operating syst
 
 1. Git is typically pre-installed on macOS. To check if Git is already installed, open the Terminal application (found in Applications > Utilities) and type the following command:
   
-	`git --version`
+	```
+   git --version
+   ```
 
    If Git is already installed, it will display the installed version. If not, it will prompt you to install the Xcode Command Line Tools, which include Git.
    
@@ -63,11 +65,15 @@ To install Git on your computer, follow these steps based on your operating syst
 1. Open a terminal window.
 2. Update the package list to ensure you get the latest version of available packages:
    
-	`sudo apt update`
+	```
+   sudo apt update
+   ```
    
 3. Install Git by running the following command:
    
-	`sudo apt install git`
+	```
+   sudo apt install git
+   ```
 
 4. The system will prompt you to confirm the installation. Type "Y" and press Enter to proceed.
 5. Once the installation is complete, Git should be installed on your Linux system.
@@ -77,18 +83,24 @@ To install Git on your computer, follow these steps based on your operating syst
 1. Open a terminal window.
 2. Update the package list to ensure you get the latest version of available packages:
   
-	`sudo dnf update`
+	```
+   sudo dnf update
+   ```
    
 3. Install Git by running the following command:
    
-	`sudo dnf install git`
+	```
+   sudo dnf install git
+   ```
   
 1. The system will prompt you to confirm the installation. Type "Y" and press Enter to proceed.
 2. Once the installation is complete, Git should be installed on your Linux system.
 
 To verify that Git has been installed correctly, you can open a terminal (Command Prompt on Windows) and run the following command:
 
-	`git --version`
+```
+git --version
+```
 
 It should display the installed Git version if the installation was successful.
 
