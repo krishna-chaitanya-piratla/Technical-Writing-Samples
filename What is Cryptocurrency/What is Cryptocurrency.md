@@ -1,3 +1,6 @@
+![Cryptocurrency logos](./assets/crypto_set.jpg)
+
+
 # Introduction to Cryptocurrency
 Cryptocurrency, the cutting-edge digital currency that has taken the financial sector by storm, is changing the way we think about and use money. In this article, we will delve into the fascinating world of cryptocurrencies, learning about their history, the technology that drives them, their role in the modern economy, and any potential implications they may have on our financial future.
 
@@ -50,3 +53,7 @@ It is still too early to say for sure what the future holds for cryptocurrency. 
 
 # Conclusion
 Cryptocurrency is a new and growing asset class that has the potential to transform how we think about money. Its meteoric ascent has been nothing short of a digital revolution, upending old banking systems and ushering in a new era of decentralized, transparent transactions. There are, however, hazards involved with bitcoin.  As more individuals and organizations use cryptocurrencies, it is critical to be educated, practice prudence, and explore the immense possibilities of this revolutionary form of digital money. While there are still problems and concerns, the trajectory of cryptocurrencies shows that they are here to stay, and their influence on the global economy will be felt for generations to come.
+
+---
+
+___Image Credits___: <a href="https://www.freepik.com/free-vector/popular-cryptocurrency-logos-set_23678052.htm#query=cryptocurrency&position=0&from_view=search&track=sph">Image by myriammira</a> on Freepik
